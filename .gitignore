@@ -1,0 +1,20 @@
+# Compiler files
+cache/
+out/
+build/
+
+# npm
+node_modules/
+package-lock.json
+package.json
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
